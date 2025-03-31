@@ -1,0 +1,26 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  z-index: 1000;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.navbar a {
+  cursor: pointer;
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.navbar a.active {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+} 
