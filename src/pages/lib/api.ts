@@ -1,10 +1,8 @@
-// lib/api.ts
 
 interface Ad {
   id: number;
   title: string;
   description: string;
-  // Add other properties as needed
 }
 
 export async function getAds(): Promise<Ad[]> {
